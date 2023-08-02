@@ -1,7 +1,7 @@
-2023-07-30 12:57:49,362 [main] INFO  logger.LoggerHelper - Application load successfully
-2023-07-30 12:57:50,260 [main] INFO  logger.LoggerHelper - data fetch from excel
-2023-07-30 12:57:50,465 [main] INFO  logger.LoggerHelper - Aadhar No Enter Successfully
-2023-07-30 12:57:50,636 [main] INFO  logger.LoggerHelper - Candidate Name enter Successfully
-2023-07-30 12:57:50,762 [main] INFO  logger.LoggerHelper - Candidate Father Name enter Successfully
-2023-07-30 12:57:51,308 [main] INFO  logger.LoggerHelper - Candidate DOB enter Successfully
-2023-07-30 12:57:51,444 [main] INFO  logger.LoggerHelper - Candidate Address enter Successfully
+2023-08-01 22:31:27,079 [main] INFO  logger.LoggerHelper - Application load successfully
+2023-08-01 22:31:29,463 [main] INFO  logger.LoggerHelper - data fetch from excel
+2023-08-01 22:31:29,823 [main] INFO  logger.LoggerHelper - Aadhar No Enter Successfully
+2023-08-01 22:31:30,102 [main] INFO  logger.LoggerHelper - Candidate Name enter Successfully
+2023-08-01 22:31:30,315 [main] INFO  logger.LoggerHelper - Candidate Father Name enter Successfully
+2023-08-01 22:31:31,282 [main] INFO  logger.LoggerHelper - Candidate DOB enter Successfully
+2023-08-01 22:31:31,508 [main] INFO  logger.LoggerHelper - Candidate Address enter Successfully

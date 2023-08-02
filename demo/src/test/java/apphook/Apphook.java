@@ -31,11 +31,14 @@ public class Apphook {
 		if(browser.equalsIgnoreCase("chrome")) {
 			ldriver= WebDriverManager.chromedriver().create();
 		} else {
-			ldriver= WebDriverManager.firefoxdriver().create();
+			System.out.println("ldiver is"+ldriver+"browser is");
+			ldriver=WebDriverManager.firefoxdriver().clearDriverCache().create();
+
+			
 		}
 		
 		dvalue.setDrive(ldriver); 
-		System.out.println("inside before class"+dvalue);
+		
     }
 	
 	@After(order = 0)
@@ -48,7 +51,6 @@ public class Apphook {
 	public void takescreenshot()
     {
 		File screenshotFile = ((TakesScreenshot) ldriver).getScreenshotAs(OutputType.FILE);
-
         try {
             FileUtils.copyFile(screenshotFile, new File("test-output/pdfReport/screenshot.png"));
         } catch (IOException e) {

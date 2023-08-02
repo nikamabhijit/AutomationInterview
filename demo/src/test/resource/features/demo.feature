@@ -1,7 +1,7 @@
 Feature: Title of your feature
 
   @tag1
-  Scenario Outline: Title of your scenario
+  Scenario Outline: Registration Form	
     Given Load Application Url "https://himachalhillportercompany.org/Recruitments.aspx"
     When Fetch Data from "<SheetName>" with <RowNumber>
     And Enter candidate aadhar no
@@ -13,3 +13,4 @@ Feature: Title of your feature
     Examples: 
       | SheetName | RowNumber |
       | Sheet1    |         0 |
+		

@@ -54,7 +54,7 @@ public class RegistrationPageStep {
 		address = testdata.get(no).get("Address");
 
 		log.info("data fetch from excel");
-	}
+	}	
 
 	@When("Enter candidate aadhar no")
 	public void enter_candidate_aadhar_no() throws Throwable {

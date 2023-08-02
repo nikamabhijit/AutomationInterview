@@ -16,12 +16,4 @@ public class LoggerHelper {
 		return Logger.getLogger(cls);
 	}
 	
-	public static void main(String[] args) {
-		Logger log = LoggerHelper.getLogger(LoggerHelper.class);
-		log.info("I am test");
-		log.info("I am test");
-		log.info("I am test");
-				
-	}
-	
 }

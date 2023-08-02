@@ -16,7 +16,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
     monochrome=true,
     plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner  extends AbstractTestNGCucumberTests 	{
 	
 	public static ThreadLocal<String> Browser = new ThreadLocal<String>();
 	
@@ -30,6 +30,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	@BeforeClass
 	public static void setupscenario(String browser) {
 		TestRunner.Browser.set(browser);
+		System.out.println("browser name is"+browser);
 	
 	}
 }
